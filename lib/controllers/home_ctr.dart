@@ -3,7 +3,6 @@ import 'package:blinqpay/models/user_model.dart';
 import 'package:blinqpay/utils/constants.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:logger/logger.dart';
 
 class HomeCtr extends GetxController {
   final db = FirebaseFirestore.instance;
@@ -11,7 +10,6 @@ class HomeCtr extends GetxController {
   var allUsers = <UserModel>[].obs;
   var filteredUsers = <UserModel>[].obs;
   var isLoading = false.obs;
-  var logger = Logger();
 
   getAllPost() async {
     isLoading.value = true;

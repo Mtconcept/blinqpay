@@ -1,16 +1,23 @@
-# blinqpay
+### **Blinqpay**
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The Blinq Test Project
+**Implemented Features and Optimizations**
+- Populate Feeds
+    - Support for text-only posts
+    - Support for posts with text and video
+    -Support for posts with text and image
+- Implemented video caching for fast replay
+- Populate Users
+  Implemented user population and management
+- Search Users
+  Added search functionality to filter users
+UI Optimization
+Designed clean and simple UI for enhanced user experience
+Ensured no memory leaks through rigorous testing and optimization
+State Management
+Implemented effective state management to handle app state efficiently
+Utilized GetX for reactive state management
+Issues Addressed
+Firebase Registration on Android
+Currently troubleshooting issues with Firebase registration on Android
+Ensuring proper integration and debugging process to resolve registration challenges
